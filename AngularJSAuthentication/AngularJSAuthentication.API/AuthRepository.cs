@@ -9,7 +9,7 @@ using Microsoft.AspNet.Identity.EntityFramework;
 
 namespace AngularJSAuthentication.API
 {
-    public class AuthRepository
+    public class AuthRepository : IDisposable
     {
         private AuthContext _ctx;
         private UserManager<IdentityUser> _userManager;
@@ -44,6 +44,5 @@ namespace AngularJSAuthentication.API
             _ctx.Dispose();
             _userManager.Dispose();
         }
-          
     }
 }

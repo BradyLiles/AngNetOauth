@@ -35,3 +35,6 @@ c:\Dev\AngularJSAuthentication\AngularJSAuthentication.API\bin\System.Web.Http.W
 c:\Dev\AngularJSAuthentication\AngularJSAuthentication.API\obj\Debug\AngularJSAuthentication.API.csprojResolveAssemblyReference.cache
 c:\Dev\AngularJSAuthentication\AngularJSAuthentication.API\obj\Debug\AngularJSAuthentication.API.dll
 c:\Dev\AngularJSAuthentication\AngularJSAuthentication.API\obj\Debug\AngularJSAuthentication.API.pdb
+c:\Dev\AngularJSAuthentication\AngularJSAuthentication.API\bin\Microsoft.Owin.Cors.dll
+c:\Dev\AngularJSAuthentication\AngularJSAuthentication.API\bin\System.Web.Cors.dll
+c:\Dev\AngularJSAuthentication\AngularJSAuthentication.API\bin\Microsoft.Owin.Cors.xml
