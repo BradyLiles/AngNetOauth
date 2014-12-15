@@ -5,7 +5,6 @@
     <title>AngularJS Authentication</title>
     <link href="content/css/bootstrap.min.css" rel="stylesheet" />
     <link href="content/css/bootstrap-slate.min.css" rel="stylesheet" />
-    <link href="content/css/loading-bar.css" rel="stylesheet"/>
 
     <script src="scripts/angular.min.js"></script>
     <a href="scripts/angular.min.js.map">scripts/angular.min.js.map</a>
@@ -13,7 +12,13 @@
     <script src="scripts/angular-route.min.js"></script>
     <a href="scripts/angular-route.min.js.map">scripts/angular-route.min.js.map</a>
 
+    <script src="scripts/angular-local-storage.js"></script>
+    <script src="scripts/common.js"></script>
+
+    <link href="content/css/loading-bar.css" rel="stylesheet" />
     <script src="content/js/loading-bar.js"></script>
+
+    <script src="AngularAuthApp/angularAuthApp-module.js"></script>
 </head>
 <body>
     <div class="navbar navbar-inverse navbar-fixed-top" role="navigation" data-ng-controller="indexController">
@@ -43,11 +48,20 @@
             <p>This single page application is built using AngularJS, it is using OAuth bearer token authentication, ASP.NET Web API 2, OWIN middleware, and ASP.NET Identity to generate tokens and register users.</p>
         </div>
     </div>
-    <div class="container">
-        <div data-ng-view="">
-        </div>
+<div class="container">
+    <div data-ng-view="">
     </div>
+</div>
 
+    <script src="AngularAuthApp/angularAuthApp-module.js"></script>
 
+    <script src="AngularAuthApp/Services/authInterceptor-factory.js"></script>
+    <script src="AngularAuthApp/Services/angularAuthApp-factory.js"></script>
+    <script src="AngularAuthApp/Services/orders-factory.js"></script>
+
+    <script src="AngularAuthApp/Controllers/home-controller.js"></script>
+    <script src="AngularAuthApp/Controllers/index-controller.js"></script>
+    <script src="AngularAuthApp/Controllers/login-controller.js"></script>
+    <script src="AngularAuthApp/Controllers/signUp-controller.js"></script>
 </body>
 </html>

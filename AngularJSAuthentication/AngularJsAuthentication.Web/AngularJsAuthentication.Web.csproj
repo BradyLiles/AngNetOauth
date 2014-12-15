@@ -57,9 +57,18 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AngularAuthApp\Controllers\home-controller.js" />
+    <Content Include="AngularAuthApp\Controllers\index-controller.js" />
+    <Content Include="AngularAuthApp\Controllers\login-controller.js" />
+    <Content Include="AngularAuthApp\Controllers\signUp-controller.js" />
+    <Content Include="scripts\angular-local-storage.js" />
     <Content Include="scripts\angular.min.js.map" />
     <Content Include="packages.config" />
     <Content Include="scripts\angular-route.min.js.map" />
+    <Content Include="AngularAuthApp\angularAuthApp-module.js" />
+    <Content Include="AngularAuthApp\Services\angularAuthApp-factory.js" />
+    <Content Include="AngularAuthApp\Services\orders-factory.js" />
+    <Content Include="AngularAuthApp\Services\authInterceptor-factory.js" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -93,6 +102,9 @@
     <Content Include="scripts\jquery-1.9.0.js" />
     <Content Include="scripts\jquery-1.9.0.min.js" />
     <Content Include="scripts\npm.js" />
+    <Content Include="AngularAuthApp\views\home.html" />
+    <Content Include="AngularAuthApp\views\login.html" />
+    <Content Include="AngularAuthApp\views\signup.html" />
     <Content Include="Web.config" />
     <Content Include="scripts\jquery-1.9.0.min.map" />
   </ItemGroup>
